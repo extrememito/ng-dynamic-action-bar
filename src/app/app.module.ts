@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -7,7 +8,12 @@ import { ActionBarModule } from './action-bar/action-bar.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [ActionBarModule, BrowserModule, AppRoutingModule],
+  imports: [
+    ActionBarModule.forRoot(),
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
