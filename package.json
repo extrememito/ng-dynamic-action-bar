@@ -7,6 +7,12 @@
     "build": "ng build",
     "lint": "ng lint"
   },
+  "description": "Use AngularCDK Portal to create action bar with dynamic custom content",
+  "author": {
+    "name": "Miroslav Gajdos",
+    "email": "gjdmiroslav@gmail.com",
+    "url": "https://github.com/extrememito/ng-dynamic-action-bar"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^7.2.15",
